@@ -1,7 +1,7 @@
 pipeline {
     agent none
     stages {
-        stage('build') {
+        stage('Node install') {
             agent {
               docker {
                 image 'node:16.13.1-alpine'
